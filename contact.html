@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Kontakt</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <div class="page">
+    <div class="header"><h1>Kontakt</h1></div>
+    <div class="box">
+      <form name="kontakt" action="contact.html" method="post" onsubmit="return kontrolaFormulare();">
+        <p><label for="jmeno">Jmeno:</label><br><input type="text" id="jmeno" name="jmeno" size="35"></p>
+        <p><label for="email">E-mail:</label><br><input type="text" id="email" name="email" size="35"></p>
+        <p><label for="tema">Tema zpravy:</label><br><select id="tema" name="tema"><option>Dotaz</option><option>Pochvala</option><option>Navrh</option></select></p>
+        <p><label for="zprava">Zprava:</label><br><textarea id="zprava" name="zprava" rows="5" cols="45"></textarea></p>
+        <p><input class="button" type="submit" value="Odeslat"> <input type="reset" value="Smazat"></p>
+      </form>
+    </div>
+    <div class="footer">Stranka Kontakt</div>
+  </div>
+</body>
+</html>
